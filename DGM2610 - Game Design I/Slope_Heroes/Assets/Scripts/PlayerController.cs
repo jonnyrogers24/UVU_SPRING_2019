@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 	void Update () 
 	{
 		transform.Translate(new Vector3(moveSpeed, 0, 0) * Time.deltaTime);
-
+		
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
 			transform.Rotate(new Vector3(0, 0, -rotateSpeed) * Time.deltaTime);
@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour
 			}
 			
 		}
-		
-		
+
+
 		
 	}
 }
