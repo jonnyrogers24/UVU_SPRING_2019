@@ -3,26 +3,22 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
 
-    private Rigidbody rb;
-
-    void Start()
+    private CharacterController controller;
+    public MovePattern Pattern; 
+	
+    private void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>(); 
     }
 
-    void FixedUpdate()
+    void Update() 
     {
-        float x = Input.GetAxis("Horizontal") * Time.fixedDeltaTime * moveSpeed;
-
-        Vector3 newPosition = rb.position + Vector3.right * x;
-
-        newPosition.x = Mathf.Clamp(newPosition.x, 0f, 757f);
 		
-        rb.MovePosition(newPosition);
+        Pattern.Invoke(controller,transform);
+		
     }
-
 }
