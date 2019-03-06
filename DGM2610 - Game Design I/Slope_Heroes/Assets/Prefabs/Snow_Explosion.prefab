@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23936272278489454}
   - component: {fileID: 135180983225985590}
   - component: {fileID: 54509957046190068}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4086095899985982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Snow_Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 23695991954589876}
   - component: {fileID: 135026736477877286}
   - component: {fileID: 54932967036626104}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 23816308122138306}
   - component: {fileID: 135589195480780746}
   - component: {fileID: 54815631621857700}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 23199465611304272}
   - component: {fileID: 135993938655179966}
   - component: {fileID: 54282692618133826}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 23396695765204828}
   - component: {fileID: 135573248907724794}
   - component: {fileID: 54394323937160478}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 23621466941234672}
   - component: {fileID: 135050389621498298}
   - component: {fileID: 54191336330221160}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 23427029011088954}
   - component: {fileID: 135461260810705550}
   - component: {fileID: 54333510808961792}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 23401550614548430}
   - component: {fileID: 135665360774526906}
   - component: {fileID: 54266194549012852}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
