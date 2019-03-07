@@ -48,13 +48,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IcicleSpawn.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IcicleSpawn.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IcicleSpawn.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            <state relative-caret-position="420">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
-                <marker date="1551911794708" expanded="true" signature="6:150" ph="..." />
+                <marker date="1551911794708" expanded="false" signature="6:150" ph="..." />
                 <marker date="1551911794708" expanded="true" signature="192:592" ph="{...}" />
                 <marker date="1551911794708" expanded="true" signature="360:588" ph="{...}" />
                 <marker date="1551911794708" expanded="true" signature="419:585" ph="{...}" />
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SnowballAddSpeed.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SnowballAddSpeed.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnowballAddSpeed.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
                 <marker date="1551763864069" expanded="false" signature="6:78" ph="..." />
                 <marker date="1551763864069" expanded="true" signature="125:482" ph="{...}" />
@@ -153,9 +153,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -235,11 +235,12 @@
       <workItem from="1551754808298" duration="6057000" />
       <workItem from="1551763555151" duration="909000" />
       <workItem from="1551906409939" duration="4420000" />
+      <workItem from="1551995235543" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27184000" />
+    <option name="totallyTimeSpent" value="27515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,7 +252,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="761" y="0" width="782" height="831" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -261,14 +262,14 @@
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08044383" />
-      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.081717454" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -298,6 +299,69 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Flip.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <marker date="1551912083490" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551912083490" expanded="true" signature="113:406" ph="{...}" />
+            <marker date="1551912083490" expanded="true" signature="194:404" ph="{...}" />
+            <marker date="1551912083490" expanded="true" signature="236:307" ph="{...}" />
+            <marker date="1551912083490" expanded="true" signature="348:401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IcicleSpawn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <marker date="1551911794708" expanded="false" signature="6:150" ph="..." />
+            <marker date="1551911794708" expanded="true" signature="192:592" ph="{...}" />
+            <marker date="1551911794708" expanded="true" signature="360:588" ph="{...}" />
+            <marker date="1551911794708" expanded="true" signature="419:585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <marker date="1551390712194" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551390712194" expanded="true" signature="122:574" ph="{...}" />
+            <marker date="1551390712194" expanded="true" signature="308:366" ph="{...}" />
+            <marker date="1551390712194" expanded="true" signature="419:572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1549491565732" expanded="false" signature="7:48" ph="..." />
+            <marker date="1549491565732" expanded="true" signature="91:452" ph="{...}" />
+            <marker date="1549491565732" expanded="true" signature="219:446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnowballAddSpeed.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <marker date="1551763864069" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551763864069" expanded="true" signature="125:482" ph="{...}" />
+            <marker date="1551763864069" expanded="true" signature="291:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Flip.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -553,32 +617,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Snow_Explosion.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/SnowballAddSpeed.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/IcicleSpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1549489610776" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549489610776" expanded="true" signature="122:776" ph="{...}" />
-            <marker date="1549489610776" expanded="true" signature="292:443" ph="{...}" />
-            <marker date="1549489610776" expanded="true" signature="334:430" ph="{...}" />
-            <marker date="1549489610776" expanded="true" signature="473:773" ph="{...}" />
-            <marker date="1549489610776" expanded="true" signature="596:767" ph="{...}" />
-            <marker date="1549489610776" expanded="true" signature="640:757" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IcicleSpawn.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding>
-            <marker date="1551911794708" expanded="true" signature="6:150" ph="..." />
-            <marker date="1551911794708" expanded="true" signature="192:592" ph="{...}" />
-            <marker date="1551911794708" expanded="true" signature="360:588" ph="{...}" />
-            <marker date="1551911794708" expanded="true" signature="419:585" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Flip.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -610,11 +649,24 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnowballAddSpeed.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <marker date="1551763864069" expanded="false" signature="6:78" ph="..." />
             <marker date="1551763864069" expanded="true" signature="125:482" ph="{...}" />
             <marker date="1551763864069" expanded="true" signature="291:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IcicleSpawn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <marker date="1551911794708" expanded="false" signature="6:150" ph="..." />
+            <marker date="1551911794708" expanded="true" signature="192:592" ph="{...}" />
+            <marker date="1551911794708" expanded="true" signature="360:588" ph="{...}" />
+            <marker date="1551911794708" expanded="true" signature="419:585" ph="{...}" />
           </folding>
         </state>
       </provider>
