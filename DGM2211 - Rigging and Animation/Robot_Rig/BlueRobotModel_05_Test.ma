@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: BlueRobotModel_Final.ma
-//Last modified: Sun, Mar 17, 2019 04:17:52 PM
+//Name: BlueRobotModel_05_Test.ma
+//Last modified: Sun, Mar 17, 2019 04:18:22 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -59166,4 +59166,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "orange_model_01_defaultRenderLayer.msg" ":defaultRenderingList1.r" 
 		-na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
-// End of BlueRobotModel_Final.ma
+// End of BlueRobotModel_05_Test.ma
