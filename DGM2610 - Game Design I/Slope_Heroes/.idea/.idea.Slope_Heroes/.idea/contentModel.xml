@@ -21,6 +21,7 @@
           <e p="SnowballAddSpeed.cs" t="Include" />
           <e p="SnowballSetActive.cs" t="Include" />
         </e>
+        <e p="SnowballSlowSpeed.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

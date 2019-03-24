@@ -9,12 +9,14 @@ public class IcicleSpawn : MonoBehaviour
 
 	public GameObject icicle;
 
+	//public GameObject icicleTrigger;
+
 	public Transform icicleSpawn;
 
 	public float fireRate;
 
 	private float nextFire; 
-	
+	 
 	// Update is called once per frame
 	void Update ()
 	{
@@ -22,8 +24,9 @@ public class IcicleSpawn : MonoBehaviour
 		{
 			nextFire = Time.time + fireRate;
 			Instantiate(icicle, icicleSpawn.position, icicleSpawn.rotation);
+			//Instantiate(icicleTrigger, icicleSpawn.position, icicleSpawn.rotation);
 			Destroy(GameObject.Find("Icicle_Main(Clone)"), 1);
+			//Destroy(GameObject.Find("Icicle_Trigger(Clone)"), 1);
 		}
 	}
-	
 }
