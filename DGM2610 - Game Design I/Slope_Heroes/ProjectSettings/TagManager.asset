@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Snowball
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - PostProcessing
   - Expolsion
   - Speed Trigger
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 

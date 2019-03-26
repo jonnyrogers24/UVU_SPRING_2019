@@ -19,7 +19,7 @@ public class MoveCharacter : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update()
+	void FixedUpdate()
 	{
 		position.x = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
 		position.y = Gravity * Time.deltaTime; 
