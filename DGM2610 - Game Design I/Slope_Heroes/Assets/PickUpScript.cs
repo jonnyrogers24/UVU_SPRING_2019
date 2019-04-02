@@ -7,13 +7,13 @@ public class PickUpScript : MonoBehaviour
 
     public GameObject shieldUI;
     public GameObject shield;
-    public GameObject shieldPickUp;
+    //public GameObject shieldPickUp;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("PickUp"))
         {
-            shieldPickUp.SetActive(false);
+            other.gameObject.SetActive(false);
             shieldUI.SetActive(true);
         }
     }
@@ -25,14 +25,10 @@ public class PickUpScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 shield.SetActive(true);
+                shieldUI.SetActive(false);
                 
                 StartCoroutine(ShieldOff());
-            }
-            
-            else
-            {
-                print("No Shield");
-            }
+            }          
         }
     }
 

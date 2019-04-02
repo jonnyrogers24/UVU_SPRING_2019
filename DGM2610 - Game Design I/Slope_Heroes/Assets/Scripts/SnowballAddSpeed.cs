@@ -10,7 +10,7 @@ public class SnowballAddSpeed : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-            EnemyFollowScript = Snowball.GetComponent<EnemyFollow>();
-            EnemyFollowScript.enemySpeed = EnemyFollowScript.enemySpeed + enemyBoost;
+            //EnemyFollowScript = Snowball.GetComponent<EnemyFollow>();
+           // EnemyFollowScript.enemySpeed = EnemyFollowScript.enemySpeed + enemyBoost;
     }
 }
