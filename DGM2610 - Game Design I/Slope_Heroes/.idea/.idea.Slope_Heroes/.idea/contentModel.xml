@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
           <e p="DestroyIcicles.cs" t="Include" />
+          <e p="EnemyDamage.cs" t="Include" />
           <e p="EnemyFollow.cs" t="Include" />
           <e p="Flip.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
@@ -19,6 +20,7 @@
           <e p="MovePattern.cs" t="Include" />
           <e p="PickUpScript.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerHealth.cs" t="Include" />
           <e p="Snow_Explosion.cs" t="Include" />
           <e p="SnowballAddSpeed.cs" t="Include" />
           <e p="SnowballSetActive.cs" t="Include" />
