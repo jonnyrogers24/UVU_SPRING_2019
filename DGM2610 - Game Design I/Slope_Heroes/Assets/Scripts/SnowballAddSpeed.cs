@@ -6,11 +6,16 @@ public class SnowballAddSpeed : MonoBehaviour
 {
     public GameObject Snowball; 
     private EnemyFollow EnemyFollowScript;
-    public float enemyBoost;
+    public float newSpeed;
     
     private void OnTriggerEnter(Collider other)
     {
         EnemyFollowScript = Snowball.GetComponent<EnemyFollow>();
-        EnemyFollowScript.enemySpeed = EnemyFollowScript.enemySpeed + enemyBoost;
+        
+        if (EnemyFollowScript.enemySpeed <= 15)
+        {
+            EnemyFollowScript.enemySpeed = newSpeed;
+        }
+        
     }
 }

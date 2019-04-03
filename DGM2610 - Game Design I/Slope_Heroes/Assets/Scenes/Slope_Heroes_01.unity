@@ -344,6 +344,7 @@ Transform:
   - {fileID: 1402812528}
   - {fileID: 1313287858}
   - {fileID: 2080776802}
+  - {fileID: 2127965627}
   - {fileID: 1418517812}
   - {fileID: 335624415}
   - {fileID: 1161668664}
@@ -405,13 +406,14 @@ GameObject:
   m_Component:
   - component: {fileID: 335624415}
   - component: {fileID: 335624416}
+  - component: {fileID: 335624417}
   m_Layer: 0
   m_Name: Snowball_Subtract_Speed_Trigger (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &335624415
 Transform:
   m_ObjectHideFlags: 0
@@ -419,11 +421,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 335624414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -132, y: 54.1, z: -42.9}
+  m_LocalScale: {x: 1, y: 4.1875, z: 50.986}
   m_Children: []
   m_Father: {fileID: 321351673}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &335624416
 MonoBehaviour:
@@ -437,7 +439,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Snowball: {fileID: 1161668663}
-  enemySlow: 6
+  newSpeed: 16
+--- !u!65 &335624417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 335624414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &352778403
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,6 +463,7 @@ GameObject:
   - component: {fileID: 352778404}
   - component: {fileID: 352778406}
   - component: {fileID: 352778405}
+  - component: {fileID: 352778407}
   m_Layer: 0
   m_Name: pCube8
   m_TagString: Untagged
@@ -514,6 +529,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 352778403}
+  m_Mesh: {fileID: 4300000, guid: e6ab81999fa50294a827ab5da4ef2d8f, type: 3}
+--- !u!64 &352778407
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352778403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: e6ab81999fa50294a827ab5da4ef2d8f, type: 3}
 --- !u!1 &394946180
 GameObject:
@@ -695,7 +724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1845485528}
   smoothSpeed: 0.125
-  offset: {x: 0, y: 1.5, z: -10.5}
+  offset: {x: 0, y: 1.5, z: -20}
 --- !u!114 &534669907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1239,12 +1268,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1161668663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.3, z: 0}
+  m_LocalPosition: {x: -549.8, y: 8.9, z: -45.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 918127811}
   m_Father: {fileID: 321351673}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1161668665
 BoxCollider:
@@ -1273,7 +1302,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 114
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!114 &1161668667
 MonoBehaviour:
@@ -1286,7 +1315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba7cf8e5e163864eb2508dc4f410a83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 10
+  enemySpeed: 15
 --- !u!1 &1198040742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,13 +1438,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1313287858}
   - component: {fileID: 1313287859}
+  - component: {fileID: 1313287860}
   m_Layer: 0
   m_Name: Snowball_Add_Speed_Trigger (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1313287858
 Transform:
   m_ObjectHideFlags: 0
@@ -1423,8 +1453,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1313287857}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -277, y: 25.8, z: -45}
+  m_LocalScale: {x: 1, y: 4.7721, z: 54.704685}
   m_Children: []
   m_Father: {fileID: 321351673}
   m_RootOrder: 3
@@ -1441,7 +1471,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Snowball: {fileID: 1161668663}
-  enemyBoost: 1
+  newSpeed: 0
+--- !u!65 &1313287860
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1313287857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1327395934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,7 +1516,7 @@ Transform:
   m_Children:
   - {fileID: 1391621620}
   m_Father: {fileID: 321351673}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1327395936
 BoxCollider:
@@ -1503,7 +1545,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 72
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!114 &1327395938
 MonoBehaviour:
@@ -1516,7 +1558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba7cf8e5e163864eb2508dc4f410a83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 10
+  enemySpeed: 15
 --- !u!1 &1391621619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,6 +1658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402812528}
   - component: {fileID: 1402812529}
+  - component: {fileID: 1402812530}
   m_Layer: 0
   m_Name: Snowball_Add_Speed_Trigger
   m_TagString: Untagged
@@ -1630,8 +1673,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1402812527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -310.3, y: 6.4, z: -45}
+  m_LocalScale: {x: 1, y: 4.7721, z: 54.704685}
   m_Children: []
   m_Father: {fileID: 321351673}
   m_RootOrder: 2
@@ -1648,7 +1691,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Snowball: {fileID: 1161668663}
-  enemyBoost: 1
+  newSpeed: 19
+--- !u!65 &1402812530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1402812527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1418517811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,6 +1713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418517812}
   - component: {fileID: 1418517813}
+  - component: {fileID: 1418517814}
   m_Layer: 0
   m_Name: Snowball_Subtract_Speed_Trigger (3)
   m_TagString: Untagged
@@ -1672,11 +1728,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1418517811}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -184.9, y: 80, z: -42.9}
+  m_LocalScale: {x: 1, y: 4.1875, z: 50.986}
   m_Children: []
   m_Father: {fileID: 321351673}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1418517813
 MonoBehaviour:
@@ -1690,7 +1746,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Snowball: {fileID: 1161668663}
-  enemySlow: 6
+  newSpeed: 16
+--- !u!65 &1418517814
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418517811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1497665348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,8 +1783,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497665348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.7, y: -13, z: 1.21}
-  m_LocalScale: {x: 1, y: 2.4875, z: 4.7854}
+  m_LocalPosition: {x: -520.2, y: -3.3, z: -45.2}
+  m_LocalScale: {x: 1, y: 2.4875, z: 56.50299}
   m_Children: []
   m_Father: {fileID: 321351673}
   m_RootOrder: 0
@@ -1924,8 +1992,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1604849865}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 25.1, z: 74.9}
-  m_LocalScale: {x: 60, y: 1, z: 12}
+  m_LocalPosition: {x: 0, y: 152, z: 261}
+  m_LocalScale: {x: 346.75714, y: 5.7792854, z: 69.351425}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -2139,7 +2207,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1845485526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -185, y: -14.72, z: 25.802057}
+  m_LocalPosition: {x: -720.3, y: -2.920001, z: -20.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1095986589}
@@ -2157,7 +2225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e712ee78181d09439951e5e4c6b49cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 12
   Gravity: -9.81
 --- !u!114 &1845485530
 MonoBehaviour:
@@ -2212,6 +2280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080776802}
   - component: {fileID: 2080776803}
+  - component: {fileID: 2080776804}
   m_Layer: 0
   m_Name: Snowball_Add_Speed_Trigger (2)
   m_TagString: Untagged
@@ -2226,8 +2295,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2080776801}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -230.2, y: 53.6, z: -45}
+  m_LocalScale: {x: 1, y: 4.7721, z: 54.704685}
   m_Children: []
   m_Father: {fileID: 321351673}
   m_RootOrder: 4
@@ -2244,7 +2313,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Snowball: {fileID: 1161668663}
-  enemyBoost: 1
+  newSpeed: 19
+--- !u!65 &2080776804
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080776801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2124384299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,3 +2382,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2127965626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2127965627}
+  - component: {fileID: 2127965629}
+  - component: {fileID: 2127965628}
+  m_Layer: 0
+  m_Name: Snowball_Add_Speed_Trigger (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2127965627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2127965626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -126.7, y: 50.8, z: -45}
+  m_LocalScale: {x: 1, y: 4.7721, z: 54.70469}
+  m_Children: []
+  m_Father: {fileID: 321351673}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2127965628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2127965626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2127965629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2127965626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a682390d60aa144877da288ebc4c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Snowball: {fileID: 1161668663}
+  newSpeed: 0

@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SnowballSubtractSpeed : MonoBehaviour {
-	
+public class SnowballSubtractSpeed : MonoBehaviour 
+{
 	public GameObject Snowball; 
 	private EnemyFollow EnemyFollowScript;
-	public float enemySlow;  
+	public float newSpeed = 16; 
     
 	private void OnTriggerEnter(Collider other)
 	{
 		EnemyFollowScript = Snowball.GetComponent<EnemyFollow>();
-		EnemyFollowScript.enemySpeed = EnemyFollowScript.enemySpeed - enemySlow;
+		
+		if (EnemyFollowScript.enemySpeed >= 19)
+		{
+			EnemyFollowScript.enemySpeed = newSpeed;
+		}
+		
 	}
 }
