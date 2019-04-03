@@ -13,7 +13,7 @@ public class Enlarger : MonoBehaviour
 	IEnumerator Grow()
 	{
 		transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
-		yield return Grow(); 
+		yield return null; 
 	}
 
 

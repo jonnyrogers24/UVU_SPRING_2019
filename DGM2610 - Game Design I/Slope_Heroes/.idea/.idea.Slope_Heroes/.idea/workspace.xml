@@ -80,10 +80,10 @@
             <state relative-caret-position="180">
               <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
-                <marker date="1554269349872" expanded="false" signature="6:107" ph="..." />
-                <marker date="1554269349872" expanded="true" signature="146:306" ph="{...}" />
-                <marker date="1554269349872" expanded="true" signature="164:196" ph="{...}" />
-                <marker date="1554269349872" expanded="true" signature="217:302" ph="{...}" />
+                <marker date="1554269660920" expanded="false" signature="6:107" ph="..." />
+                <marker date="1554269660920" expanded="true" signature="146:306" ph="{...}" />
+                <marker date="1554269660920" expanded="true" signature="164:196" ph="{...}" />
+                <marker date="1554269660920" expanded="true" signature="217:302" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -303,12 +303,12 @@
       <workItem from="1553804557014" duration="1035000" />
       <workItem from="1554152861337" duration="7345000" />
       <workItem from="1554175167119" duration="2969000" />
-      <workItem from="1554266235313" duration="2499000" />
+      <workItem from="1554266235313" duration="2811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48450000" />
+    <option name="totallyTimeSpent" value="48762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,10 +693,10 @@
         <state relative-caret-position="180">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <marker date="1554269349872" expanded="false" signature="6:107" ph="..." />
-            <marker date="1554269349872" expanded="true" signature="146:306" ph="{...}" />
-            <marker date="1554269349872" expanded="true" signature="164:196" ph="{...}" />
-            <marker date="1554269349872" expanded="true" signature="217:302" ph="{...}" />
+            <marker date="1554269660920" expanded="false" signature="6:107" ph="..." />
+            <marker date="1554269660920" expanded="true" signature="146:306" ph="{...}" />
+            <marker date="1554269660920" expanded="true" signature="164:196" ph="{...}" />
+            <marker date="1554269660920" expanded="true" signature="217:302" ph="{...}" />
           </folding>
         </state>
       </provider>
