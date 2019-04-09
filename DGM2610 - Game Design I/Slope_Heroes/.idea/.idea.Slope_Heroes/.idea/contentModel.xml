@@ -192,6 +192,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
+          <e p="CharacterMove.cs" t="Include" />
           <e p="DestroyIcicles.cs" t="Include" />
           <e p="EnemyDamage.cs" t="Include" />
           <e p="EnemyFollow.cs" t="Include" />

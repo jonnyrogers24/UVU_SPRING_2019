@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SpikeTrigger : MonoBehaviour
 {
-	//public Transform Player;
+	public Transform Player;
 	//public Transform RespawnPoint; 
+	private PlayerHealth playerHealthScript; 
+	public float damage = 2;
 	
 	private void OnTriggerEnter(Collider other)
 	{
@@ -15,21 +17,10 @@ public class SpikeTrigger : MonoBehaviour
 		
 			{
 				GetComponent<Animation>().Play();
-
-				StartCoroutine(Respawn());
+				PlayerHealth p = Player.GetComponent<PlayerHealth>();
+				p.TakeDamage(damage);
 			}
 			
-	}
-
-	IEnumerator Respawn()
-	{
-		{
-			
-			yield return new WaitForSeconds(.1f);
-			//Player.transform.position = RespawnPoint.transform.position; 
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-		}
 	}
 	
 }
