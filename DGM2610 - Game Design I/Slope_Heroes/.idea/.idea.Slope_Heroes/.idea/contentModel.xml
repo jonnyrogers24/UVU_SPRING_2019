@@ -199,6 +199,7 @@
           <e p="Flip.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
+          <e p="HunterTrapTrigger.cs" t="Include" />
           <e p="IcicleSpawn.cs" t="Include" />
           <e p="IcicleSpawner.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
