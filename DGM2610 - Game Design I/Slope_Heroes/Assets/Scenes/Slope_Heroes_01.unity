@@ -2275,7 +2275,6 @@ GameObject:
   - component: {fileID: 1252424768}
   - component: {fileID: 1252424770}
   - component: {fileID: 1252424769}
-  - component: {fileID: 1252424771}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -2341,18 +2340,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1252424767}
   m_Mesh: {fileID: 4300000, guid: 73325c63f0ced124a9f655d2a1edfa64, type: 3}
---- !u!65 &1252424771
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1252424767}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 2, z: 10}
-  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1001 &1257253036
 Prefab:
   m_ObjectHideFlags: 0
@@ -2827,6 +2814,7 @@ GameObject:
   - component: {fileID: 1461671180}
   - component: {fileID: 1461671182}
   - component: {fileID: 1461671183}
+  - component: {fileID: 1461671184}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -2919,6 +2907,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.1425495, y: 5.3889866, z: 8.645892}
   m_Center: {x: -0.00000023841858, y: 0, z: 0}
+--- !u!114 &1461671184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461671178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2dfd1ff521fd3d4aaac68097a7cde38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1497665348
 GameObject:
   m_ObjectHideFlags: 0
