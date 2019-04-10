@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Terrain_Model.ma
-//Last modified: Tue, Apr 09, 2019 11:37:59 PM
+//Last modified: Tue, Apr 09, 2019 11:38:34 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -2578,7 +2578,6 @@ createNode lambert -n "Terrain_M";
 createNode shadingEngine -n "lambert2SG";
 	rename -uid "67520165-4772-5BFF-560C-2BAD7E3F0C5C";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo1";
 	rename -uid "1042B227-4318-1A95-EB5A-E9955F6AEEFB";
@@ -2629,7 +2628,7 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "262C9D93-4B19-E1B6-DFE2-55AF9848C037";
+	rename -uid "609E52C2-469A-4285-4830-E69772A11DD9";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -330.95236780151544 -321.42855865614808 ;
 	setAttr ".tgi[0].vh" -type "double2" 317.85713022663526 338.09522466054096 ;
