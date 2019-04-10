@@ -14,15 +14,16 @@
       <file leaf-file-name="CharacterMove.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+            <state relative-caret-position="249">
+              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
               <folding>
-                <marker date="1554935587650" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554935587650" expanded="true" signature="122:1121" ph="{...}" />
-                <marker date="1554935587650" expanded="true" signature="425:569" ph="{...}" />
-                <marker date="1554935587650" expanded="true" signature="601:1114" ph="{...}" />
-                <marker date="1554935587650" expanded="true" signature="642:978" ph="{...}" />
-                <marker date="1554935587650" expanded="true" signature="894:968" ph="{...}" />
+                <marker date="1554937081415" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554937081415" expanded="true" signature="122:1122" ph="{...}" />
+                <marker date="1554937081415" expanded="true" signature="233:306" ph="/* public float moveX; ... */" />
+                <marker date="1554937081415" expanded="true" signature="431:570" ph="{...}" />
+                <marker date="1554937081415" expanded="true" signature="602:1115" ph="{...}" />
+                <marker date="1554937081415" expanded="true" signature="643:979" ph="{...}" />
+                <marker date="1554937081415" expanded="true" signature="895:969" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,10 +50,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1084" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -111,12 +112,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554907138766</updated>
       <workItem from="1554907156340" duration="385000" />
-      <workItem from="1554935431108" duration="309000" />
+      <workItem from="1554935431108" duration="1775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694000" />
+    <option name="totallyTimeSpent" value="2160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -128,8 +129,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="867" height="830" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -140,7 +140,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11409396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21065675" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -169,27 +169,29 @@
         <state relative-caret-position="225">
           <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
           <folding>
-            <marker date="1554935587650" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554935587650" expanded="true" signature="122:1121" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="425:569" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="601:1114" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="642:978" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="894:968" ph="{...}" />
+            <marker date="1554937081415" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554937081415" expanded="true" signature="122:1122" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="233:306" ph="/* public float moveX; ... */" />
+            <marker date="1554937081415" expanded="true" signature="431:570" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="602:1115" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="643:979" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="895:969" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        <state relative-caret-position="249">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
-            <marker date="1554935587650" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554935587650" expanded="true" signature="122:1121" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="425:569" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="601:1114" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="642:978" ph="{...}" />
-            <marker date="1554935587650" expanded="true" signature="894:968" ph="{...}" />
+            <marker date="1554937081415" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554937081415" expanded="true" signature="122:1122" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="233:306" ph="/* public float moveX; ... */" />
+            <marker date="1554937081415" expanded="true" signature="431:570" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="602:1115" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="643:979" ph="{...}" />
+            <marker date="1554937081415" expanded="true" signature="895:969" ph="{...}" />
           </folding>
         </state>
       </provider>

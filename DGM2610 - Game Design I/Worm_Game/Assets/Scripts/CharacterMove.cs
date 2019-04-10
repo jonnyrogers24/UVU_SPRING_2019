@@ -9,9 +9,9 @@ public class CharacterMove : MonoBehaviour
     public float jumpSpeed = 10.0f;
     public float gravity = -9.81f;
 
-    public float moveX;
-    public float moveY;
-    public float moveZ;
+    //public float moveX;
+    //public float moveY;
+    //public float moveZ;
     
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController controller;
@@ -19,7 +19,7 @@ public class CharacterMove : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        gameObject.transform.position = new Vector3(moveX, moveY, moveZ);
+        gameObject.transform.position = new Vector3(-100, 9, -3.2f);
     }
 
     private void FixedUpdate()
