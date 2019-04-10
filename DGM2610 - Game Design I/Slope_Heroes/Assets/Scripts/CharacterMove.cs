@@ -15,7 +15,7 @@ public class CharacterMove : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        gameObject.transform.position = new Vector3(0,5,165);
+        gameObject.transform.position = new Vector3(3,5,62);
     }
 
     private void FixedUpdate()
