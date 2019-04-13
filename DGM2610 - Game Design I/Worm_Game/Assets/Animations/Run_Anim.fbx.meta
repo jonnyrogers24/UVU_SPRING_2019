@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 690345a8ad5b0004fa53f2c22c62f116
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Worm_Model_Final:Controls
+    100004: Worm_Model_Final:joint1
+    100006: Worm_Model_Final:joint10
+    100008: Worm_Model_Final:joint11
+    100010: Worm_Model_Final:joint12
+    100012: Worm_Model_Final:joint13
+    100014: Worm_Model_Final:joint14
+    100016: Worm_Model_Final:joint15
+    100018: Worm_Model_Final:joint16
+    100020: Worm_Model_Final:joint2
+    100022: Worm_Model_Final:joint3
+    100024: Worm_Model_Final:joint4
+    100026: Worm_Model_Final:joint5
+    100028: Worm_Model_Final:joint6
+    100030: Worm_Model_Final:joint7
+    100032: Worm_Model_Final:joint8
+    100034: Worm_Model_Final:joint9
+    100036: Worm_Model_Final:Root
+    100038: Worm_Model_Final:Skeleton
+    100040: Worm_Model_Final:Worm
+    100042: Worm_Model_Final:Worm_10_Ctrl
+    100044: Worm_Model_Final:Worm_10_Ctrl_Grp
+    100046: Worm_Model_Final:Worm_11_Ctrl
+    100048: Worm_Model_Final:Worm_11_Ctrl_Grp
+    100050: Worm_Model_Final:Worm_12_Ctrl
+    100052: Worm_Model_Final:Worm_12_Ctrl_Grp
+    100054: Worm_Model_Final:Worm_13_Ctrl
+    100056: Worm_Model_Final:Worm_13_Ctrl_Grp
+    100058: Worm_Model_Final:Worm_14_Ctrl
+    100060: Worm_Model_Final:Worm_14_Ctrl_Grp
+    100062: Worm_Model_Final:Worm_15_Ctrl
+    100064: Worm_Model_Final:Worm_15_Ctrl_Grp
+    100066: Worm_Model_Final:Worm_16_Ctrl
+    100068: Worm_Model_Final:Worm_16_Ctrl_Grp
+    100070: Worm_Model_Final:Worm_1_Ctrl
+    100072: Worm_Model_Final:Worm_1_Ctrl_Grp
+    100074: Worm_Model_Final:Worm_2_Ctrl
+    100076: Worm_Model_Final:Worm_2_Ctrl_Grp
+    100078: Worm_Model_Final:Worm_3_Ctrl
+    100080: Worm_Model_Final:Worm_3_Ctrl_Grp
+    100082: Worm_Model_Final:Worm_4_Ctrl
+    100084: Worm_Model_Final:Worm_4_Ctrl_Grp
+    100086: Worm_Model_Final:Worm_5_Ctrl
+    100088: Worm_Model_Final:Worm_5_Ctrl_Grp
+    100090: Worm_Model_Final:Worm_6_Ctrl
+    100092: Worm_Model_Final:Worm_6_Ctrl_Grp
+    100094: Worm_Model_Final:Worm_7_Ctrl
+    100096: Worm_Model_Final:Worm_7_Ctrl_Grp
+    100098: Worm_Model_Final:Worm_8_Ctrl
+    100100: Worm_Model_Final:Worm_8_Ctrl_Grp
+    100102: Worm_Model_Final:Worm_9_Ctrl
+    100104: Worm_Model_Final:Worm_9_Ctrl_Grp
+    100106: Worm_Model_Final:Worm_Geo
+    100108: Worm_Model_Final:Worm_Root_Ctrl
+    100110: Worm_Model_Final:Worm_Root_Ctrl_Grp
+    400000: //RootNode
+    400002: Worm_Model_Final:Controls
+    400004: Worm_Model_Final:joint1
+    400006: Worm_Model_Final:joint10
+    400008: Worm_Model_Final:joint11
+    400010: Worm_Model_Final:joint12
+    400012: Worm_Model_Final:joint13
+    400014: Worm_Model_Final:joint14
+    400016: Worm_Model_Final:joint15
+    400018: Worm_Model_Final:joint16
+    400020: Worm_Model_Final:joint2
+    400022: Worm_Model_Final:joint3
+    400024: Worm_Model_Final:joint4
+    400026: Worm_Model_Final:joint5
+    400028: Worm_Model_Final:joint6
+    400030: Worm_Model_Final:joint7
+    400032: Worm_Model_Final:joint8
+    400034: Worm_Model_Final:joint9
+    400036: Worm_Model_Final:Root
+    400038: Worm_Model_Final:Skeleton
+    400040: Worm_Model_Final:Worm
+    400042: Worm_Model_Final:Worm_10_Ctrl
+    400044: Worm_Model_Final:Worm_10_Ctrl_Grp
+    400046: Worm_Model_Final:Worm_11_Ctrl
+    400048: Worm_Model_Final:Worm_11_Ctrl_Grp
+    400050: Worm_Model_Final:Worm_12_Ctrl
+    400052: Worm_Model_Final:Worm_12_Ctrl_Grp
+    400054: Worm_Model_Final:Worm_13_Ctrl
+    400056: Worm_Model_Final:Worm_13_Ctrl_Grp
+    400058: Worm_Model_Final:Worm_14_Ctrl
+    400060: Worm_Model_Final:Worm_14_Ctrl_Grp
+    400062: Worm_Model_Final:Worm_15_Ctrl
+    400064: Worm_Model_Final:Worm_15_Ctrl_Grp
+    400066: Worm_Model_Final:Worm_16_Ctrl
+    400068: Worm_Model_Final:Worm_16_Ctrl_Grp
+    400070: Worm_Model_Final:Worm_1_Ctrl
+    400072: Worm_Model_Final:Worm_1_Ctrl_Grp
+    400074: Worm_Model_Final:Worm_2_Ctrl
+    400076: Worm_Model_Final:Worm_2_Ctrl_Grp
+    400078: Worm_Model_Final:Worm_3_Ctrl
+    400080: Worm_Model_Final:Worm_3_Ctrl_Grp
+    400082: Worm_Model_Final:Worm_4_Ctrl
+    400084: Worm_Model_Final:Worm_4_Ctrl_Grp
+    400086: Worm_Model_Final:Worm_5_Ctrl
+    400088: Worm_Model_Final:Worm_5_Ctrl_Grp
+    400090: Worm_Model_Final:Worm_6_Ctrl
+    400092: Worm_Model_Final:Worm_6_Ctrl_Grp
+    400094: Worm_Model_Final:Worm_7_Ctrl
+    400096: Worm_Model_Final:Worm_7_Ctrl_Grp
+    400098: Worm_Model_Final:Worm_8_Ctrl
+    400100: Worm_Model_Final:Worm_8_Ctrl_Grp
+    400102: Worm_Model_Final:Worm_9_Ctrl
+    400104: Worm_Model_Final:Worm_9_Ctrl_Grp
+    400106: Worm_Model_Final:Worm_Geo
+    400108: Worm_Model_Final:Worm_Root_Ctrl
+    400110: Worm_Model_Final:Worm_Root_Ctrl_Grp
+    2100000: Worm_Model_Final_Worm_M
+    4300000: Worm_Model_Final:Worm
+    7400000: Run_Anim
+    9500000: //RootNode
+    13700000: Worm_Model_Final:Worm
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
