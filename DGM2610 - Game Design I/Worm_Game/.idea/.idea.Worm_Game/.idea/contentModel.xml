@@ -7,6 +7,8 @@
       <e p="Assets" t="Include">
         <e p="BoundrySetActive.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Beak_Trigger.cs" t="Include" />
+          <e p="BeakAnimation.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CharacterMove.cs" t="Include" />
         </e>
