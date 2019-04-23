@@ -14,22 +14,9 @@ public class Beak_Trigger : MonoBehaviour
 
 		{
 
-			StartCoroutine(waitBeak());
+			anim.BeakPlay();
 		}
 
 	}
 
-	IEnumerator waitBeak()
-	{
-		yield return new WaitForSeconds(1);
-		anim.BeakPlay();
-
-		StartCoroutine(setInactive());
-	}
-
-	IEnumerator setInactive()
-	{
-		yield return new WaitForSeconds(1);
-		beak.SetActive(false);
-	}
 }
