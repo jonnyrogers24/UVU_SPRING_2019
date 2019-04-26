@@ -13,7 +13,9 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="CharacterAnim.cs" t="Include" />
           <e p="CharacterMove.cs" t="Include" />
+          <e p="DamageSystem.cs" t="Include" />
           <e p="Health.cs" t="Include" />
+          <e p="HealthSystem.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
