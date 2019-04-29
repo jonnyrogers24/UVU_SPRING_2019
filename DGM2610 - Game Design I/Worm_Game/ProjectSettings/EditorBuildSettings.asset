@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Menu_Scene.unity
+    guid: 86972e3edf547f14b85b21d45a5130e1
+  - enabled: 1
+    path: Assets/Scenes/Worm_Game.unity
+    guid: fec8f6a037ce25a47ab9c39dbd5e9167
   m_configObjects: {}
