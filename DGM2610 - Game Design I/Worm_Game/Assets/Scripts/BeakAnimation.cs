@@ -8,8 +8,9 @@ public class BeakAnimation : MonoBehaviour
    public void BeakPlay()
     {
         
-        gameObject.GetComponent<Animation>().Play(); 
-        
+        gameObject.GetComponent<Animation>().Play();
+   
+
     }
-    
+
 }

@@ -5,17 +5,21 @@ using UnityEngine;
 public class dirtEmission : MonoBehaviour
 {
 
-    public Transform dirt; 
+    public Transform dirt;
+    public AudioSource dirtSource;
    
     void Start()
     {
         dirt.GetComponent<ParticleSystem>().Stop();
+        dirtSource = GetComponent<AudioSource>();
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
         dirt.GetComponent<ParticleSystem>().Play();
+        dirtSource.Play();
+        
         StartCoroutine(stopDirt());
     }
 

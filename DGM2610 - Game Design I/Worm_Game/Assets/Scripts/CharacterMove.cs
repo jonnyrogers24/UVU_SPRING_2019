@@ -9,6 +9,8 @@ public class CharacterMove : MonoBehaviour
     public float jumpSpeed = 10.0f;
     public float gravity = -9.81f;
 
+    public AudioSource boingSource;
+
     //public float moveX;
     //public float moveY;
     //public float moveZ;
@@ -20,6 +22,7 @@ public class CharacterMove : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         gameObject.transform.position = new Vector3(-100, 9, -3.2f);
+        boingSource = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate()
@@ -33,6 +36,7 @@ public class CharacterMove : MonoBehaviour
             if (Input.GetButton("Jump"))
             {
                 moveDirection.y = jumpSpeed; 
+                boingSource.Play();
             }
         }
 

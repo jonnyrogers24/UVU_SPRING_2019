@@ -6,6 +6,12 @@ public class Beak_Trigger : MonoBehaviour
 {
 	public BeakAnimation anim;
 	public GameObject beak;
+	public AudioSource beakSource;
+
+	private void Start()
+	{
+		beakSource = GetComponent<AudioSource>();
+	}
 
 	private void OnTriggerEnter(Collider other)
 	{
@@ -15,8 +21,16 @@ public class Beak_Trigger : MonoBehaviour
 		{
 
 			anim.BeakPlay();
+			StartCoroutine(beakSound());
+
 		}
 
+	}
+
+	IEnumerator beakSound()
+	{
+		yield return new WaitForSeconds(.25f);
+		beakSource.Play();
 	}
 
 }
