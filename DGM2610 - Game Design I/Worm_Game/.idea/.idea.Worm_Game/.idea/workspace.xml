@@ -14,17 +14,8 @@
       <file leaf-file-name="CharacterMove.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="540">
               <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <marker date="1556600552859" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556600552859" expanded="true" signature="122:1246" ph="{...}" />
-                <marker date="1556600552859" expanded="true" signature="270:343" ph="/* public float moveX; ... */" />
-                <marker date="1556600552859" expanded="true" signature="468:658" ph="{...}" />
-                <marker date="1556600552859" expanded="true" signature="690:1239" ph="{...}" />
-                <marker date="1556600552859" expanded="true" signature="731:1103" ph="{...}" />
-                <marker date="1556600552859" expanded="true" signature="983:1093" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeakAnimation.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeakAnimation.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeakAnimation.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -80,10 +71,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PlatypusRunAnim.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatypusRunAnim.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1556651058327" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556651058327" expanded="true" signature="124:298" ph="{...}" />
+                <marker date="1556651058327" expanded="true" signature="196:217" ph="{...}" />
+                <marker date="1556651058327" expanded="true" signature="275:296" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Health.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
+            <state>
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <marker date="1555889666190" expanded="false" signature="6:100" ph="..." />
@@ -157,6 +162,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Slope_Heroes/Assets/Scripts/Snow_Explosion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Slope_Heroes/Assets/Scripts/SnowballSetActive.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatypusRunAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterAnim.cs" root0="FORCE_HIGHLIGHTING" />
@@ -206,6 +212,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -218,11 +229,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,11 +274,12 @@
       <workItem from="1556245175693" duration="2798000" />
       <workItem from="1556552660981" duration="2342000" />
       <workItem from="1556597942818" duration="3949000" />
+      <workItem from="1556652544519" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22647000" />
+    <option name="totallyTimeSpent" value="23246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,7 +302,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -319,13 +326,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Beak_Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -371,13 +371,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterAnim.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -403,13 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeakAnimation.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -440,13 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Beak_Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -469,13 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BeakAnimation.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -506,13 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Beak_Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -535,13 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Beak_Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -594,13 +558,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Beak_Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -635,13 +593,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMove.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -659,13 +611,7 @@
     <entry file="file://$PROJECT_DIR$/../Slope_Heroes/Assets/Scripts/SnowballSetActive.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/BoundrySetActive.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAttackDamage.cs" />
     <entry file="file://$PROJECT_DIR$/../Slope_Heroes/Assets/Scripts/SpikeTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -677,13 +623,7 @@
     <entry file="file://$PROJECT_DIR$/../Slope_Heroes/Assets/Scripts/HunterTrapTrigger.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/dirtEmission.cs" />
     <entry file="file://$PROJECT_DIR$/../Slope_Heroes/Assets/Scripts/DestroyIcicles.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -698,33 +638,12 @@
         <state relative-caret-position="-45" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MainMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BtnFX.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MainMenu.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/BtnFX.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="540">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <marker date="1556600552859" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556600552859" expanded="true" signature="122:1246" ph="{...}" />
-            <marker date="1556600552859" expanded="true" signature="270:343" ph="/* public float moveX; ... */" />
-            <marker date="1556600552859" expanded="true" signature="468:658" ph="{...}" />
-            <marker date="1556600552859" expanded="true" signature="690:1239" ph="{...}" />
-            <marker date="1556600552859" expanded="true" signature="731:1103" ph="{...}" />
-            <marker date="1556600552859" expanded="true" signature="983:1093" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
+        <state>
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <marker date="1555889666190" expanded="false" signature="6:100" ph="..." />
@@ -830,6 +749,18 @@
             <marker date="1556601089694" expanded="false" signature="6:78" ph="..." />
             <marker date="1556601089694" expanded="true" signature="122:237" ph="{...}" />
             <marker date="1556601089694" expanded="true" signature="155:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatypusRunAnim.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1556651058327" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556651058327" expanded="true" signature="124:298" ph="{...}" />
+            <marker date="1556651058327" expanded="true" signature="196:217" ph="{...}" />
+            <marker date="1556651058327" expanded="true" signature="275:296" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: daf0a5b5401042f43893112cbd680b10
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Beak_Ctrl
+    100002: Beak_Ctrl_Grp
+    100004: Beak_Jnt
+    100006: COG_Ctrl
+    100008: COG_Ctrl_Grp
+    100010: Controls_Grp
+    100012: Geo_Grp
+    100014: Head_Ctrl
+    100016: Head_Ctrl_Grp
+    100018: Head_Jnt
+    100020: Hip_Ctrl
+    100022: Hip_Ctrl_Grp
+    100024: Hip_Jnt
+    100026: L_Lower_Arm_Ctrl
+    100028: L_Lower_Arm_Ctrl_Grp
+    100030: L_Lower_Arm_Jnt
+    100032: L_Lower_Leg_Ctrl
+    100034: L_Lower_Leg_Ctrl 1
+    100036: L_Lower_Leg_Ctrl_Grp
+    100038: L_Lower_Leg_Jnt
+    100040: L_Pelvis_Ctrl
+    100042: L_Pelvis_Ctrl 1
+    100044: L_Pelvis_Ctrl_Grp
+    100046: L_Pelvis_Jnt
+    100048: L_Shoulder_Ctrl
+    100050: L_Shoulder_Ctrl1
+    100052: L_Shoulder_Ctrl_Grp
+    100054: L_Shoulder_Jnt
+    100056: L_Upper_Arm_Ctrl
+    100058: L_Upper_Arm_Ctrl_Grp
+    100060: L_Upper_Arm_Jnt
+    100062: L_Upper_Leg_Ctrl
+    100064: L_Upper_Leg_Ctrl 1
+    100066: L_Upper_Leg_Ctrl_Grp
+    100068: L_Upper_Leg_Jnt
+    100070: //RootNode
+    100072: polySurface13
+    100074: R_Lower_Arm_Ctrl
+    100076: R_Lower_Arm_Ctrl_Grp
+    100078: R_Lower_Arm_Jnt
+    100080: R_Lower_Leg_Ctrl
+    100082: R_Lower_Leg_Ctrl 1
+    100084: R_Lower_Leg_Ctrl_Grp
+    100086: R_Lower_Leg_Jnt
+    100088: R_Pelvis_Ctrl
+    100090: R_Pelvis_Ctrl 1
+    100092: R_Pelvis_Ctrl_Grp
+    100094: R_Pelvis_Jnt
+    100096: R_Shoulder_Ctrl
+    100098: R_Shoulder_Ctrl1
+    100100: R_Shoulder_Ctrl_Grp
+    100102: R_Shoulder_Jnt
+    100104: R_Upper_Arm_Ctrl
+    100106: R_Upper_Arm_Ctrl_Grp
+    100108: R_Upper_Arm_Jnt
+    100110: R_Upper_Leg_Ctrl
+    100112: R_Upper_Leg_Ctrl1
+    100114: R_Upper_Leg_Ctrl_Grp
+    100116: R_Upper_Leg_Jnt
+    100118: Root_Ctrl
+    100120: Root_Ctrl_Grp
+    100122: Root_Jnt
+    100124: Skeleton_Grp
+    100126: Tail_01_Ctrl
+    100128: Tail_01_Ctrl1
+    100130: Tail_01_Ctrl_Grp
+    100132: Tail_01_Jnt
+    100134: Tail_02_Ctrl_Grp
+    100136: Tail_02_Hip_Ctrl
+    100138: Tail_02_Hip_Ctrl1
+    100140: Tail_02_Jnt
+    100142: Tail_03_Ctrl_Grp
+    100144: Tail_03_Hip_Ctrl
+    100146: Tail_03_Hip_Ctrl1
+    100148: Tail_03_Jnt
+    100150: Tail_04_Ctrl_Grp
+    100152: Tail_04_Hip_Ctrl
+    100154: Tail_04_Hip_Ctrl1
+    100156: Tail_04_Jnt
+    100158: Tail_05_Ctrl_Grp
+    100160: Tail_05_Hip_Ctr
+    100162: Tail_05_Hip_Ctr1
+    100164: Tail_05_Jnt
+    100166: Transform_Ctrl
+    100168: Transform_Ctrl_Grp
+    400000: Beak_Ctrl
+    400002: Beak_Ctrl_Grp
+    400004: Beak_Jnt
+    400006: COG_Ctrl
+    400008: COG_Ctrl_Grp
+    400010: Controls_Grp
+    400012: Geo_Grp
+    400014: Head_Ctrl
+    400016: Head_Ctrl_Grp
+    400018: Head_Jnt
+    400020: Hip_Ctrl
+    400022: Hip_Ctrl_Grp
+    400024: Hip_Jnt
+    400026: L_Lower_Arm_Ctrl
+    400028: L_Lower_Arm_Ctrl_Grp
+    400030: L_Lower_Arm_Jnt
+    400032: L_Lower_Leg_Ctrl
+    400034: L_Lower_Leg_Ctrl 1
+    400036: L_Lower_Leg_Ctrl_Grp
+    400038: L_Lower_Leg_Jnt
+    400040: L_Pelvis_Ctrl
+    400042: L_Pelvis_Ctrl 1
+    400044: L_Pelvis_Ctrl_Grp
+    400046: L_Pelvis_Jnt
+    400048: L_Shoulder_Ctrl
+    400050: L_Shoulder_Ctrl1
+    400052: L_Shoulder_Ctrl_Grp
+    400054: L_Shoulder_Jnt
+    400056: L_Upper_Arm_Ctrl
+    400058: L_Upper_Arm_Ctrl_Grp
+    400060: L_Upper_Arm_Jnt
+    400062: L_Upper_Leg_Ctrl
+    400064: L_Upper_Leg_Ctrl 1
+    400066: L_Upper_Leg_Ctrl_Grp
+    400068: L_Upper_Leg_Jnt
+    400070: //RootNode
+    400072: polySurface13
+    400074: R_Lower_Arm_Ctrl
+    400076: R_Lower_Arm_Ctrl_Grp
+    400078: R_Lower_Arm_Jnt
+    400080: R_Lower_Leg_Ctrl
+    400082: R_Lower_Leg_Ctrl 1
+    400084: R_Lower_Leg_Ctrl_Grp
+    400086: R_Lower_Leg_Jnt
+    400088: R_Pelvis_Ctrl
+    400090: R_Pelvis_Ctrl 1
+    400092: R_Pelvis_Ctrl_Grp
+    400094: R_Pelvis_Jnt
+    400096: R_Shoulder_Ctrl
+    400098: R_Shoulder_Ctrl1
+    400100: R_Shoulder_Ctrl_Grp
+    400102: R_Shoulder_Jnt
+    400104: R_Upper_Arm_Ctrl
+    400106: R_Upper_Arm_Ctrl_Grp
+    400108: R_Upper_Arm_Jnt
+    400110: R_Upper_Leg_Ctrl
+    400112: R_Upper_Leg_Ctrl1
+    400114: R_Upper_Leg_Ctrl_Grp
+    400116: R_Upper_Leg_Jnt
+    400118: Root_Ctrl
+    400120: Root_Ctrl_Grp
+    400122: Root_Jnt
+    400124: Skeleton_Grp
+    400126: Tail_01_Ctrl
+    400128: Tail_01_Ctrl1
+    400130: Tail_01_Ctrl_Grp
+    400132: Tail_01_Jnt
+    400134: Tail_02_Ctrl_Grp
+    400136: Tail_02_Hip_Ctrl
+    400138: Tail_02_Hip_Ctrl1
+    400140: Tail_02_Jnt
+    400142: Tail_03_Ctrl_Grp
+    400144: Tail_03_Hip_Ctrl
+    400146: Tail_03_Hip_Ctrl1
+    400148: Tail_03_Jnt
+    400150: Tail_04_Ctrl_Grp
+    400152: Tail_04_Hip_Ctrl
+    400154: Tail_04_Hip_Ctrl1
+    400156: Tail_04_Jnt
+    400158: Tail_05_Ctrl_Grp
+    400160: Tail_05_Hip_Ctr
+    400162: Tail_05_Hip_Ctr1
+    400164: Tail_05_Jnt
+    400166: Transform_Ctrl
+    400168: Transform_Ctrl_Grp
+    2100000: Fur
+    4300000: polySurface13
+    9500000: //RootNode
+    13700000: polySurface13
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

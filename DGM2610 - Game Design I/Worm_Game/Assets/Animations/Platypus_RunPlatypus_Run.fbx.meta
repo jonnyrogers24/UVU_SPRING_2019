@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: dfaa458b0a0cd6e4a9054660c917d2f8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: New_Platypus_Rigging_4:back
+    100002: New_Platypus_Rigging_4:Beak_Ctrl
+    100004: New_Platypus_Rigging_4:Beak_Ctrl_Grp
+    100006: New_Platypus_Rigging_4:Beak_Jnt
+    100008: New_Platypus_Rigging_4:bottom
+    100010: New_Platypus_Rigging_4:COG_Ctrl
+    100012: New_Platypus_Rigging_4:COG_Ctrl_Grp
+    100014: New_Platypus_Rigging_4:Controls_Grp
+    100016: New_Platypus_Rigging_4:Geo_Grp
+    100018: New_Platypus_Rigging_4:Head_Ctrl
+    100020: New_Platypus_Rigging_4:Head_Ctrl_Grp
+    100022: New_Platypus_Rigging_4:Head_Jnt
+    100024: New_Platypus_Rigging_4:Hip_Ctrl
+    100026: New_Platypus_Rigging_4:Hip_Ctrl_Grp
+    100028: New_Platypus_Rigging_4:Hip_Jnt
+    100030: New_Platypus_Rigging_4:L_Lower_Arm_Ctrl
+    100032: New_Platypus_Rigging_4:L_Lower_Arm_Ctrl_Grp
+    100034: New_Platypus_Rigging_4:L_Lower_Arm_Jnt
+    100036: New_Platypus_Rigging_4:L_Lower_Leg_Ctrl
+    100038: New_Platypus_Rigging_4:L_Lower_Leg_Ctrl 1
+    100040: New_Platypus_Rigging_4:L_Lower_Leg_Ctrl_Grp
+    100042: New_Platypus_Rigging_4:L_Lower_Leg_Jnt
+    100044: New_Platypus_Rigging_4:L_Pelvis_Ctrl
+    100046: New_Platypus_Rigging_4:L_Pelvis_Ctrl 1
+    100048: New_Platypus_Rigging_4:L_Pelvis_Ctrl_Grp
+    100050: New_Platypus_Rigging_4:L_Pelvis_Jnt
+    100052: New_Platypus_Rigging_4:L_Shoulder_Ctrl
+    100054: New_Platypus_Rigging_4:L_Shoulder_Ctrl1
+    100056: New_Platypus_Rigging_4:L_Shoulder_Ctrl_Grp
+    100058: New_Platypus_Rigging_4:L_Shoulder_Jnt
+    100060: New_Platypus_Rigging_4:L_Upper_Arm_Ctrl
+    100062: New_Platypus_Rigging_4:L_Upper_Arm_Ctrl_Grp
+    100064: New_Platypus_Rigging_4:L_Upper_Arm_Jnt
+    100066: New_Platypus_Rigging_4:L_Upper_Leg_Ctrl
+    100068: New_Platypus_Rigging_4:L_Upper_Leg_Ctrl 1
+    100070: New_Platypus_Rigging_4:L_Upper_Leg_Ctrl_Grp
+    100072: New_Platypus_Rigging_4:L_Upper_Leg_Jnt
+    100074: New_Platypus_Rigging_4:left
+    100076: New_Platypus_Rigging_4:polySurface13
+    100078: New_Platypus_Rigging_4:R_Lower_Arm_Ctrl
+    100080: New_Platypus_Rigging_4:R_Lower_Arm_Ctrl_Grp
+    100082: New_Platypus_Rigging_4:R_Lower_Arm_Jnt
+    100084: New_Platypus_Rigging_4:R_Lower_Leg_Ctrl
+    100086: New_Platypus_Rigging_4:R_Lower_Leg_Ctrl 1
+    100088: New_Platypus_Rigging_4:R_Lower_Leg_Ctrl_Grp
+    100090: New_Platypus_Rigging_4:R_Lower_Leg_Jnt
+    100092: New_Platypus_Rigging_4:R_Pelvis_Ctrl
+    100094: New_Platypus_Rigging_4:R_Pelvis_Ctrl 1
+    100096: New_Platypus_Rigging_4:R_Pelvis_Ctrl_Grp
+    100098: New_Platypus_Rigging_4:R_Pelvis_Jnt
+    100100: New_Platypus_Rigging_4:R_Shoulder_Ctrl
+    100102: New_Platypus_Rigging_4:R_Shoulder_Ctrl1
+    100104: New_Platypus_Rigging_4:R_Shoulder_Ctrl_Grp
+    100106: New_Platypus_Rigging_4:R_Shoulder_Jnt
+    100108: New_Platypus_Rigging_4:R_Upper_Arm_Ctrl
+    100110: New_Platypus_Rigging_4:R_Upper_Arm_Ctrl_Grp
+    100112: New_Platypus_Rigging_4:R_Upper_Arm_Jnt
+    100114: New_Platypus_Rigging_4:R_Upper_Leg_Ctrl
+    100116: New_Platypus_Rigging_4:R_Upper_Leg_Ctrl1
+    100118: New_Platypus_Rigging_4:R_Upper_Leg_Ctrl_Grp
+    100120: New_Platypus_Rigging_4:R_Upper_Leg_Jnt
+    100122: New_Platypus_Rigging_4:Root_Ctrl
+    100124: New_Platypus_Rigging_4:Root_Ctrl_Grp
+    100126: New_Platypus_Rigging_4:Root_Jnt
+    100128: New_Platypus_Rigging_4:Skeleton_Grp
+    100130: New_Platypus_Rigging_4:Tail_01_Ctrl
+    100132: New_Platypus_Rigging_4:Tail_01_Ctrl1
+    100134: New_Platypus_Rigging_4:Tail_01_Ctrl_Grp
+    100136: New_Platypus_Rigging_4:Tail_01_Jnt
+    100138: New_Platypus_Rigging_4:Tail_02_Ctrl_Grp
+    100140: New_Platypus_Rigging_4:Tail_02_Hip_Ctrl
+    100142: New_Platypus_Rigging_4:Tail_02_Hip_Ctrl1
+    100144: New_Platypus_Rigging_4:Tail_02_Jnt
+    100146: New_Platypus_Rigging_4:Tail_03_Ctrl_Grp
+    100148: New_Platypus_Rigging_4:Tail_03_Hip_Ctrl
+    100150: New_Platypus_Rigging_4:Tail_03_Hip_Ctrl1
+    100152: New_Platypus_Rigging_4:Tail_03_Jnt
+    100154: New_Platypus_Rigging_4:Tail_04_Ctrl_Grp
+    100156: New_Platypus_Rigging_4:Tail_04_Hip_Ctrl
+    100158: New_Platypus_Rigging_4:Tail_04_Hip_Ctrl1
+    100160: New_Platypus_Rigging_4:Tail_04_Jnt
+    100162: New_Platypus_Rigging_4:Tail_05_Ctrl_Grp
+    100164: New_Platypus_Rigging_4:Tail_05_Hip_Ctr
+    100166: New_Platypus_Rigging_4:Tail_05_Hip_Ctr1
+    100168: New_Platypus_Rigging_4:Tail_05_Jnt
+    100170: New_Platypus_Rigging_4:Transform_Ctrl
+    100172: New_Platypus_Rigging_4:Transform_Ctrl_Grp
+    100174: //RootNode
+    400000: New_Platypus_Rigging_4:back
+    400002: New_Platypus_Rigging_4:Beak_Ctrl
+    400004: New_Platypus_Rigging_4:Beak_Ctrl_Grp
+    400006: New_Platypus_Rigging_4:Beak_Jnt
+    400008: New_Platypus_Rigging_4:bottom
+    400010: New_Platypus_Rigging_4:COG_Ctrl
+    400012: New_Platypus_Rigging_4:COG_Ctrl_Grp
+    400014: New_Platypus_Rigging_4:Controls_Grp
+    400016: New_Platypus_Rigging_4:Geo_Grp
+    400018: New_Platypus_Rigging_4:Head_Ctrl
+    400020: New_Platypus_Rigging_4:Head_Ctrl_Grp
+    400022: New_Platypus_Rigging_4:Head_Jnt
+    400024: New_Platypus_Rigging_4:Hip_Ctrl
+    400026: New_Platypus_Rigging_4:Hip_Ctrl_Grp
+    400028: New_Platypus_Rigging_4:Hip_Jnt
+    400030: New_Platypus_Rigging_4:L_Lower_Arm_Ctrl
+    400032: New_Platypus_Rigging_4:L_Lower_Arm_Ctrl_Grp
+    400034: New_Platypus_Rigging_4:L_Lower_Arm_Jnt
+    400036: New_Platypus_Rigging_4:L_Lower_Leg_Ctrl
+    400038: New_Platypus_Rigging_4:L_Lower_Leg_Ctrl 1
+    400040: New_Platypus_Rigging_4:L_Lower_Leg_Ctrl_Grp
+    400042: New_Platypus_Rigging_4:L_Lower_Leg_Jnt
+    400044: New_Platypus_Rigging_4:L_Pelvis_Ctrl
+    400046: New_Platypus_Rigging_4:L_Pelvis_Ctrl 1
+    400048: New_Platypus_Rigging_4:L_Pelvis_Ctrl_Grp
+    400050: New_Platypus_Rigging_4:L_Pelvis_Jnt
+    400052: New_Platypus_Rigging_4:L_Shoulder_Ctrl
+    400054: New_Platypus_Rigging_4:L_Shoulder_Ctrl1
+    400056: New_Platypus_Rigging_4:L_Shoulder_Ctrl_Grp
+    400058: New_Platypus_Rigging_4:L_Shoulder_Jnt
+    400060: New_Platypus_Rigging_4:L_Upper_Arm_Ctrl
+    400062: New_Platypus_Rigging_4:L_Upper_Arm_Ctrl_Grp
+    400064: New_Platypus_Rigging_4:L_Upper_Arm_Jnt
+    400066: New_Platypus_Rigging_4:L_Upper_Leg_Ctrl
+    400068: New_Platypus_Rigging_4:L_Upper_Leg_Ctrl 1
+    400070: New_Platypus_Rigging_4:L_Upper_Leg_Ctrl_Grp
+    400072: New_Platypus_Rigging_4:L_Upper_Leg_Jnt
+    400074: New_Platypus_Rigging_4:left
+    400076: New_Platypus_Rigging_4:polySurface13
+    400078: New_Platypus_Rigging_4:R_Lower_Arm_Ctrl
+    400080: New_Platypus_Rigging_4:R_Lower_Arm_Ctrl_Grp
+    400082: New_Platypus_Rigging_4:R_Lower_Arm_Jnt
+    400084: New_Platypus_Rigging_4:R_Lower_Leg_Ctrl
+    400086: New_Platypus_Rigging_4:R_Lower_Leg_Ctrl 1
+    400088: New_Platypus_Rigging_4:R_Lower_Leg_Ctrl_Grp
+    400090: New_Platypus_Rigging_4:R_Lower_Leg_Jnt
+    400092: New_Platypus_Rigging_4:R_Pelvis_Ctrl
+    400094: New_Platypus_Rigging_4:R_Pelvis_Ctrl 1
+    400096: New_Platypus_Rigging_4:R_Pelvis_Ctrl_Grp
+    400098: New_Platypus_Rigging_4:R_Pelvis_Jnt
+    400100: New_Platypus_Rigging_4:R_Shoulder_Ctrl
+    400102: New_Platypus_Rigging_4:R_Shoulder_Ctrl1
+    400104: New_Platypus_Rigging_4:R_Shoulder_Ctrl_Grp
+    400106: New_Platypus_Rigging_4:R_Shoulder_Jnt
+    400108: New_Platypus_Rigging_4:R_Upper_Arm_Ctrl
+    400110: New_Platypus_Rigging_4:R_Upper_Arm_Ctrl_Grp
+    400112: New_Platypus_Rigging_4:R_Upper_Arm_Jnt
+    400114: New_Platypus_Rigging_4:R_Upper_Leg_Ctrl
+    400116: New_Platypus_Rigging_4:R_Upper_Leg_Ctrl1
+    400118: New_Platypus_Rigging_4:R_Upper_Leg_Ctrl_Grp
+    400120: New_Platypus_Rigging_4:R_Upper_Leg_Jnt
+    400122: New_Platypus_Rigging_4:Root_Ctrl
+    400124: New_Platypus_Rigging_4:Root_Ctrl_Grp
+    400126: New_Platypus_Rigging_4:Root_Jnt
+    400128: New_Platypus_Rigging_4:Skeleton_Grp
+    400130: New_Platypus_Rigging_4:Tail_01_Ctrl
+    400132: New_Platypus_Rigging_4:Tail_01_Ctrl1
+    400134: New_Platypus_Rigging_4:Tail_01_Ctrl_Grp
+    400136: New_Platypus_Rigging_4:Tail_01_Jnt
+    400138: New_Platypus_Rigging_4:Tail_02_Ctrl_Grp
+    400140: New_Platypus_Rigging_4:Tail_02_Hip_Ctrl
+    400142: New_Platypus_Rigging_4:Tail_02_Hip_Ctrl1
+    400144: New_Platypus_Rigging_4:Tail_02_Jnt
+    400146: New_Platypus_Rigging_4:Tail_03_Ctrl_Grp
+    400148: New_Platypus_Rigging_4:Tail_03_Hip_Ctrl
+    400150: New_Platypus_Rigging_4:Tail_03_Hip_Ctrl1
+    400152: New_Platypus_Rigging_4:Tail_03_Jnt
+    400154: New_Platypus_Rigging_4:Tail_04_Ctrl_Grp
+    400156: New_Platypus_Rigging_4:Tail_04_Hip_Ctrl
+    400158: New_Platypus_Rigging_4:Tail_04_Hip_Ctrl1
+    400160: New_Platypus_Rigging_4:Tail_04_Jnt
+    400162: New_Platypus_Rigging_4:Tail_05_Ctrl_Grp
+    400164: New_Platypus_Rigging_4:Tail_05_Hip_Ctr
+    400166: New_Platypus_Rigging_4:Tail_05_Hip_Ctr1
+    400168: New_Platypus_Rigging_4:Tail_05_Jnt
+    400170: New_Platypus_Rigging_4:Transform_Ctrl
+    400172: New_Platypus_Rigging_4:Transform_Ctrl_Grp
+    400174: //RootNode
+    2000000: New_Platypus_Rigging_4:back
+    2000002: New_Platypus_Rigging_4:bottom
+    2000004: New_Platypus_Rigging_4:left
+    2100000: New_Platypus_Rigging_4_Fur
+    4300000: New_Platypus_Rigging_4:polySurface13
+    7400000: Platypus_Run
+    9500000: //RootNode
+    13700000: New_Platypus_Rigging_4:polySurface13
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
