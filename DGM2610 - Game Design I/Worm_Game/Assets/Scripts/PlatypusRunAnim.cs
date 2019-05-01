@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class PlatypusRunAnim : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject enemy;
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        enemy.GetComponent<Animation>().Play();
     }
 }

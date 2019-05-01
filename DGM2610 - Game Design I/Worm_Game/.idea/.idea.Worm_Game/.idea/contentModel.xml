@@ -15,10 +15,12 @@
           <e p="CharacterMove.cs" t="Include" />
           <e p="DamageSystem.cs" t="Include" />
           <e p="dirtEmission.cs" t="Include" />
+          <e p="EnemyFollow.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HealthSystem.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PlatypusRunAnim.cs" t="Include" />
+          <e p="PlatypusSetActive.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
