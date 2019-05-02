@@ -14,6 +14,11 @@ public class DamageSystem : MonoBehaviour
         {
             Damage();
         }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Damage();
+        }
+        
     }
 
     void Damage()
