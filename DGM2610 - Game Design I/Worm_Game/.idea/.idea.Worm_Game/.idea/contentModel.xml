@@ -21,6 +21,7 @@
           <e p="PlatypusRunAnim.cs" t="Include" />
           <e p="PlatypusSetActive.cs" t="Include" />
         </e>
+        <e p="WinScript.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
